@@ -76,6 +76,7 @@ colors.get_colors = function()
             vscYellow = '#DCDCAA',
             vscDarkYellow = '#FFD602',
             vscPink = '#C586C0',
+            vscWhite = '#D4D4D4',
 
             -- Low contrast with default background
             vscDimHighlight = '#51504F',
