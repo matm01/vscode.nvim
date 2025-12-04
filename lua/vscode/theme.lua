@@ -116,7 +116,7 @@ theme.set_highlights = function(opts)
     hl(0, '@annotation', { fg = c.vscYellow, bg = 'NONE' })
     hl(0, '@attribute', { fg = c.vscYellow, bg = 'NONE' })
     hl(0, '@attribute.builtin', { fg = c.vscBlueGreen, bg = 'NONE' })
-    hl(0, '@module', { fg = c.vscBlueGreen, bg = 'NONE' })
+    hl(0, '@module', { fg = c.vscRed, bg = 'NONE' })
     hl(0, '@function', { fg = c.vscYellow, bg = 'NONE' })
     hl(0, '@function.builtin', { fg = c.vscYellow, bg = 'NONE' })
     hl(0, '@function.macro', { fg = c.vscYellow, bg = 'NONE' })
@@ -427,6 +427,7 @@ theme.set_highlights = function(opts)
     hl(0, 'pythonClassVar', { fg = c.vscBlue, bg = 'NONE' })
     hl(0, 'pythonClassDef', { fg = c.vscBlueGreen, bg = 'NONE' })
     hl(0, '@constructor.python', { fg = c.vscBlueGreen, bg = 'NONE' })
+    
 
     -- TeX
     hl(0, 'texStatement', { fg = c.vscBlue, bg = 'NONE' })
