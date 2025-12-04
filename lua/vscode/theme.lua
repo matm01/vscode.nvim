@@ -430,7 +430,7 @@ theme.set_highlights = function(opts)
     hl(0, 'pythonMethod', { fg = c.vscYellow, bg = 'NONE' })
     hl(0, 'pythonParam', { fg = c.vscLightBlue, bg = 'NONE' })
     hl(0, '@constructor.python', { fg = c.vscBlueGreen, bg = 'NONE' })
-    hl(0, '@variable.python', { fg = c.vscWhite, bg = 'NONE' })
+    hl(0, '@lsp.type.variable.python ', { fg = c.vscWhite, bg = 'NONE' })
     hl(0, 'pythonVariableDeclaration', { fg = c.vscWhite, bg = 'NONE' })
 
 
