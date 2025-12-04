@@ -17,7 +17,7 @@ colors.get_colors = function()
             vscLeftLight = '#636369',
 
             vscPopupFront = '#BBBBBB',
-            vscPopupBack = '#272727ff',
+            vscPopupBack = '#404040',
             vscPopupHighlightBlue = '#04395E',
             vscPopupHighlightGray = '#343B41',
 
